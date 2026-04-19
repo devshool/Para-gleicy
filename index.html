@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para Gleicy ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="stars-canvas"></canvas>
+
+  <!-- ══ SEÇÃO 1 — HERO / CONTADOR ══ -->
+  <section id="hero">
+    <h1 class="hero-title">Para minha<br/>pequena</h1>
+
+    <p class="since-label">
+      <span class="cal-icon">📅</span>
+      Conversamos desde 02 de junho de 2025
+    </p>
+
+    <div class="counter-cards">
+      <div class="card">
+        <span class="card-num" id="cnt-months">0</span>
+        <span class="card-label">MESES</span>
+      </div>
+      <div class="card">
+        <span class="card-num" id="cnt-days">0</span>
+        <span class="card-label">DIAS</span>
+      </div>
+    </div>
+
+    <div class="time-pill">
+      <span id="cnt-hours">00</span> :
+      <span id="cnt-mins">00</span> :
+      <span id="cnt-secs">00</span>
+    </div>
+
+    <p class="total-days">✦ São <strong id="cnt-total">0</strong> dias de amor ✦</p>
+    <p class="connecting-label" id="connecting-label">● conectando...</p>
+
+    <div class="scroll-hint">
+      <div class="mouse-icon"><div class="mouse-dot"></div></div>
+    </div>
+  </section>
+
+  <!-- ══ SEÇÃO 2 — REFRÃO ══ -->
+  <section id="music-section">
+    <div class="music-card">
+      <div class="music-note-icon">♫</div>
+      <h2 class="music-title">Nossa Música</h2>
+      <p class="music-sub">A trilha sonora do nosso amor</p>
+      <div class="lyric-box">
+        <p class="lyric-line">"Eu te amo mais do que tudo</p>
+        <p class="lyric-line">Mais do que eu mesmo sei dizer</p>
+        <p class="lyric-line">Cada dia ao seu lado</p>
+        <p class="lyric-line">É tudo que eu quero viver"</p>
+      </div>
+      <div class="music-notes-row">♩ ♪ ♫</div>
+    </div>
+  </section>
+
+  <!-- divisor -->
+  <div class="divider"><span>♥</span></div>
+
+  <!-- ══ SEÇÃO 3 — CARTA ══ -->
+  <section id="letter-section">
+    <div class="quote-mark left">"</div>
+    <div class="letter-box">
+      <p id="letter-text"></p>
+    </div>
+    <div class="quote-mark right">"</div>
+  </section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
